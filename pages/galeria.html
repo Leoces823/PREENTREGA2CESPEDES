@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Vinculo a bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Vinculo al css-->
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Link a google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!--Link a font aswsome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>Venezia Monoambiente</title>
+</head>
+<!-- Body -->
+<body>
+
+    <!-- Header -->
+    <header>    
+            <!-- Navegación-->
+             <h1 class="fs-4">
+                <nav class="navbar navbar-expand-lg bg-dark-subtle text-dark-emphasis">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="/index.html"><img class="logo" src="../imagenes/logo.jpeg" alt="logo"></a>
+                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                          <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav">
+                              <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./nosotros.html">Nosotros</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./galeria.html">Galería</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./servicios.html">Servicios</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="./reservar.html">Reservar</a>
+                              </li>
+        
+                            </ul>
+                          </div>
+                        </div>
+                      </nav>
+             </h1>
+            
+    </header>
+    
+    <!-- Main -->
+    <main>
+
+        <div class="row bg-body-secondary">
+            <section class="p-5">
+            <h4 class="text-center fs-4">Galería</h4>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade m-auto w-50">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../imagenes/entrada1.jpeg" class="d-block w-100" alt="entrada">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/comedor.jpg" class="d-block w-100" alt="comedor">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/cocina.jpg" class="d-block w-100" alt="cocina">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/cama.jpg" class="d-block w-100" alt="cama">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../imagenes/baño.jpg" class="d-block w-100" alt="baño">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </section>
+    
+    </main>
+
+    
+   <!-- Footer -->
+
+   <footer>
+    <div class="footer-icons">
+      <a href="" target="_blank"><!-- Todvia no esta definido el numero -->
+          <i class="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/venezia_monoambiente/" target="_blank">
+          <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+   </footer>
+
+    <!-- Link a script bootstrap recordar que siempre va antes del body -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

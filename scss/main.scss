@@ -1,0 +1,80 @@
+main {
+    .section {
+        .container {
+                display: grid;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: 1fr ;
+                gap: 20px;
+                grid-template-areas: 
+                "reserva ubicacion ";
+                background-color: #fff;
+                padding: 20px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+                border-radius: 30px;
+                box-sizing: border-box;
+                max-width: 100%;
+                overflow-x: hidden;
+            }
+            .reserva {
+                grid-area: reserva;
+                padding: 20px;
+                background-color: #fafafa;
+                border: 1px solid #ddd;
+                border-radius: 30px;
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+                form {
+                    label {
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                    input {
+                        width: 100%;
+                        padding: 8px;
+                        margin-bottom: 20px;
+                        border: 1px solid #ddd;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                    }
+                    button {
+                        padding: 10px 20px;
+                        background-color: #007bff;
+                        color: #fff;
+                        border: none;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        box-sizing: border-box; 
+                        width: 100%; 
+                        &:hover {
+                            background-color: #0056b3;
+                        }
+                    }
+                }
+            }
+            .ubicacion {
+                grid-area: ubicacion;
+                padding: 20px;
+                background-color: #fafafa;
+                border: 1px solid #ddd;
+                border-radius: 30px;
+                box-sizing: border-box;
+                width: 100%;
+                height: 100%;
+                iframe {
+                    width: 100%; 
+                    height: auto; 
+                    border: 0;
+                }
+            }
+           
+      
+            
+    }
+    
+
+   
+
+
+
+}
